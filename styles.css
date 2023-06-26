@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+}
+
+.state{
+    display: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+}
+
+main{
+    background-color: hsl(213, 19%, 18%);
+    width: 25%;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+/* Rating state */
+
+#rating-state>img{
+    padding: .7rem;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 54%);
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+p, .rating-num{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;    
+}
+
+.numbers button{
+    width: 45px;
+    height: 45px;
+    background: hsl(216, 12%, 54%);
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.numbers button:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+#btn{
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    width: 100%;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    margin-bottom: 15px;
+}
+
+#btn:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+/* thank state */
+
+#thank-state{
+    text-align: center;
+    padding: 0 .5rem;
+}
+
+.final-rating{
+    padding: .5rem .7rem;
+    margin: 1.5rem 3.5rem;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 50px;
+    font-weight: 400;
+}
+
+.attribution{
+    display: none;
+}
+
+
+/* Responsive max-width 480px */
+
+@media (max-width:480px){
+
+    main{
+
+        width: 100%;
+        border-radius: 20px;
+        margin: 0 1.5rem;
+        padding: .6rem;
+    }
+
+    #rating-state{
+        padding: .4rem;
+    }
+
+    #thank-state{
+        margin: 1rem 0;
+  
+    }
+
+    .final-rating{
+        margin: 1.5rem 3rem;
+        padding: .3rem 0;
+    }
+
+    .attribution{
+        display: block;
+        margin: 2rem 0 0 0;
+        padding: 0;
+        text-align: center;
+        font-size: .8rem;
+        color: hsl(217, 12%, 63%);
+    }
+
+    .attribution a{
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} */
