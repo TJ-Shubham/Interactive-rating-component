@@ -29,7 +29,7 @@ main{
 #rating-state>img{
     padding: .7rem;
     border-radius: 50%;
-    background-color: hsl(216, 12%, 54%);
+    background: linear-gradient(hsl(213, 19%, 18%)-60%,hsl(216, 12%, 8%)300%);
 }
 
 h1{
