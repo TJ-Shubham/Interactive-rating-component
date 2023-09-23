@@ -24,8 +24,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL:  https://github.com/TJ-Shubham/Interactive-rating-component
-- Live Site URL: https://tj-shubham.github.io/Interactive-rating-component/
+- Solution URL:  [Link](https://github.com/TJ-Shubham/Interactive-rating-component)
+- Live Site URL: [Link](https://tj-shubham.github.io/Interactive-rating-component/)
 
 ## My process
 
