@@ -36,6 +36,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - Flexbox
 - Used media query
 - JS DOM
+- Tailwind CSS
 
 
 ### What I learned
